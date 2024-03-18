@@ -41,6 +41,9 @@ git diff filename
 ```zsh
 git remote add <remote name> <url>
 git remote add origin git@github.com:Gipsyluna/Story.git
+// 一般只需要执行一次上面的命令
+// 如果要清理远程仓库的配置，则执行以下命令：
+// git remote remove origin
 
 git push -u <remote name> <branch name>
 git push -u origin main
