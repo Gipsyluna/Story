@@ -68,7 +68,7 @@ ls
 
 如果不存在ssh key，使用如下命令生成
 
-```
+```zsh
 ssh-keygen -t rsa -C "xxx@xxx.com"
 //"xxx@xxx.com"为邮箱地址
 ```
@@ -98,7 +98,7 @@ cat id_rsa.pub
 ssh -T git@github.com
 ```
 
-
+对另一个账户则使用`ssh -T git@gipsyluna.github.com `，后续有更详细的说明。
 
 
 
@@ -202,7 +202,7 @@ git branch -m master main
 
 然后将新的主分支推送到远程仓库：
 
-```
+```zsh
 git push -u origin main
 ```
 
