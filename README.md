@@ -1,6 +1,6 @@
 # Git Github 问题汇总
 
-> 作者：桂明露
+> 作者：Leonel Gavin
 >
 > 日期：2024/03/18
 
