@@ -34,6 +34,8 @@ git diff filename
 
 
 
+
+
 ## 远程仓库
 
 首先在Github上创建好仓库，注意：主流用SSH而不是HTTPS，后者有403问题
@@ -48,6 +50,19 @@ git remote add origin git@github.com:Gipsyluna/Story.git
 git push -u <remote name> <branch name>
 git push -u origin main
 ```
+
+
+
+
+
+## 其他命令
+
+```zsh
+git rm --cached -r .
+// 删除所有暂存区内容
+```
+
+
 
 
 
@@ -102,6 +117,8 @@ ssh -T git@github.com
 ```
 
 对另一个账户则使用`ssh -T git@gipsyluna.github.com `，后续有更详细的说明。
+
+
 
 
 
@@ -167,6 +184,8 @@ git remote add origin git@github.com:XXX.git
 git remote add origin git@gipsyluna.github.com:XXX.git
 // gipsyluna账户
 ```
+
+
 
 
 
